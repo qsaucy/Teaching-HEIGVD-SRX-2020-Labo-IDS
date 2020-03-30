@@ -288,7 +288,7 @@ Vous pouvez aussi utiliser des captures Wireshark ou des fichiers snort.log.xxxx
 
 **Reponse :**  
 
----
+Dans snort un préprocesseur est un plug-in permettant de paramétriser et flexibiliser l'utilisation de snort
 
 **Question 2: Pourquoi êtes vous confronté au WARNING suivant `"No preprocessors configured for policy 0"` lorsque vous exécutez la commande `snort` avec un fichier de règles ou de configuration "home-made" ?**
 
@@ -513,8 +513,10 @@ Faire des recherches à propos des outils `fragroute` et `fragtest`.
 
 ---
 
-**Reponse :**  
+**Reponse :**
 
+
+Il 'sagit d'une plugin permettant de détecter des attaques même si celles ci sont fragmenté en plusieurs paquets. Frag3 utilise une détection basé sur la cible et le réseau
 ---
 
 
